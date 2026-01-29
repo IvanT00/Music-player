@@ -1,0 +1,58 @@
+.songInfo {
+  display: flex;
+  flex-direction: row;
+  padding: 16px 16px 16px 50px;
+  background-color: #3b3b3b;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.songInfo:hover {
+  opacity: 0.7;
+  transform: translateY(-3px);
+}
+.songInfo:active {
+  transform: translateY();
+}
+.songInfo__songTitle {
+  margin: 0 0 16px 0;
+  font-size: 22px;
+}
+.songInfo__songArtist {
+  padding-left: 16px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  opacity: 0.7;
+}
+.songInfo__songDuration {
+  font-size: 16px;
+  opacity: 0.7;
+  margin-bottom: 16px;
+}
+.songInfo__playSong {
+  user-select: none;
+  -webkit-user-drag: none;
+}
+.songInfo__active {
+  display: flex;
+  flex-direction: row;
+  padding: 16px 16px 16px 50px;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  background-color: #444d44;
+  outline: 1px solid #ffffff;
+  transition: outline 0.3s;
+  box-shadow: 0 0 5px rgba(0, 255, 178, 0.5), 0 0 10px rgba(0, 255, 178, 0.5), 0 0 15px rgba(0, 255, 178, 0.5);
+}
+.songInfo__pauseSong {
+  user-select: none;
+  -webkit-user-drag: none;
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=Song.module.css.map */

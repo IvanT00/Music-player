@@ -1,0 +1,37 @@
+.allSongs {
+  border: 1px solid #324652;
+  margin: 50px;
+  background-color: #10141e;
+  width: 550px;
+  height: 650px;
+  text-align: center;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.allSongs__scrollContainer {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  right: 14px;
+  bottom: 15px;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  scrollbar-width: auto;
+  scrollbar-color: #888 #10141e;
+  clip-path: inset(11px 0 11px 0);
+  padding: 0 20px 20px 20px;
+}
+.allSongs__songsList {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.allSongs__listTitle {
+  font-size: 32px;
+  padding: 16px 16px 32px 16px;
+  user-select: none;
+}
+
+/*# sourceMappingURL=AllSongs.module.css.map */
